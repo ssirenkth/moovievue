@@ -19,7 +19,7 @@ export default
     function App(props) {
     return (
         <div class="displayParent">
-            <GameView/>
+            <GameView sampleMovie={props.movie}/>
         </div>
     );
 }

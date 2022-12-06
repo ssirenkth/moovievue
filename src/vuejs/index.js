@@ -17,7 +17,6 @@ const navigation = require("/src/views/navigation.js").default;
 
 const VueRoot=require("/src/vuejs/VueRoot.js").default;
 
-// TODO render VueRoot into the "root" div
     render(
         <VueRoot/>
         , document.getElementById('app')

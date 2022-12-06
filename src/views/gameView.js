@@ -1,5 +1,6 @@
-/* eslint-disable */ 
+/* eslint-disable */
 import { getInfo } from "@/quizSource.js";
+import { render } from "vue";
 import { getYoutubeId, getStartTime } from "../trailers.js";
 
 function GameView(props) {
@@ -53,7 +54,7 @@ function GameView(props) {
             When clicked, make sure to send the next movie in.
             
          */
-    <div class="background">
+              <div class="background">
       <td class="MoovieQuiz">MoovieQuiz</td>
 
       <td>trailer</td>
@@ -61,10 +62,14 @@ function GameView(props) {
       {/* {onYouTubeIframeAPIReady()} */}
 
       <td>Guess the movie</td>
-      {`${ getInfo("phantom_menace")}`}
+      {`${props.sampleMovie.data.Title}`}
+      <img src={props.sampleMovie.data.Poster}></img>
+
 
       {/* {props.trailer.map(answerOptionCB)} */}
     </div>
+
+
   );
 }
 
