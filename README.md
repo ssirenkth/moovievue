@@ -36,39 +36,44 @@ https://mooviequiz-5f5d4.web.app/
 
 Alternate <br>
 https://test-2-c09e4.web.app/
-## Short description of your project
-Our project is quiz, where there will be a movie trailer displayed. Then you get a question of what the title of the movie is. 
-If we have more time we will add different types of questions. Then if you answer fast enough on many questions. Your score get's 
-displayed on the highscore leaderboard. This might change to more of a kahoot type of application where the highscore only exists for that specific game.
-## What you have done
-We have so far just set up the code skeleton of our project. We have managed to get data from an API and displayed that in the "gameView" which is the 
-only screen working so far. We have also deployed our app.
-## What you still plan to do
-Well all of the other screens still need to be implemented and working. 
-
-In the future if we have more time we will try to make it so you can play with your friends.
 ## Your project file structure (short description/purpose of each file)
-### MoovieQuiz folder
-* **.gitattributes -** Auto detect text files and perform LF normalization
+### MoovieVue folder
+* **firebaserc -** config for firebase
 * **.gitignore -** contain package lock file 
-* **firebase.json -**
-* **package.json -**
+* **babel.config.js -** Came from when setting up Vue project
+* **firebase.json -** Just some settings for the firebase.
+* **jsonconfig.json -** Settings for project, came from setting up Vue project
+* **package-lock.json -** Settings for project, came from setting up Vue project
+* **package.json -** Some configurations
+* **.gitattributes -** Auto detect text files and perform LF normalization
 * **README.md -** This README
-### public
+* **vue.config -** Some configurations
+### .firebase
+* Cache files for firebase
+### dist
+* **404.html -** If the site is not found, this will show up
 * **favicon.ico -** Just a picture for the top-left corner
-* **style.css -** All our css styling
-#### vue
-* **index.html -** 
+* **index.html -** Some navigation for the site.
+#### js
+* Contains files needed for the firebase
+### node_modules
+* Contains files needed for the project
+### public
+* **404.html -** If the site is not found, this will show up
+* **favicon.ico -** Just a picture for the top-left corner
+* **index.html -** Some navigation for the site.
 ### src
 * **firebaseModel.js -** update the firebase
-* **index.html -**
-* **index.js -** 
+* **main.js -** Creates the app.
 * **Model.js -** keeps abstract data 
 * **quizSource.js -** handels the API
 * **resolvePromise.js -** resolve promise into the model “promise state"
 * **sample.html -** A sample youtube-video
 * **trailsers.js -** trailer information 
-* **utilities.js -** contain fucntions and callbacks 
+#### assets
+* **logo.png -** Just a picture
+#### services
+* **Api stuff**
 #### views
 * **app.js -** Handles all the views
 * **gameView.js -** view for the game screen
