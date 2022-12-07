@@ -34,6 +34,8 @@ https://www.figma.com/file/3KUWFnuHqBjgG0i7Em4SCL/Untitled?node-id=4%3A223&t=agB
 Deployed app <br>
 https://mooviequiz-5f5d4.web.app/
 
+Alternate <br>
+https://test-2-c09e4.web.app/
 ## Short description of your project
 Our project is quiz, where there will be a movie trailer displayed. Then you get a question of what the title of the movie is. 
 If we have more time we will add different types of questions. Then if you answer fast enough on many questions. Your score get's 
